@@ -1,6 +1,6 @@
-# ElectronAngular
+# ElectronMaterialAngular
 
-This sample application demonstrate how to create a desktop application using Angular JS and Github Electron.
+This sample application demonstrate how to create a desktop application using Angular JS, Angular Material, and Github Electron.
 
 
 
