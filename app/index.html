@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
+
 <head>
-    <title>Customer Manager</title>
+    <title>Log Event Search</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
@@ -11,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- endbuild -->
 </head>
+
 <body>
     <ng-view></ng-view>
     <!-- build:js scripts/vendor.js -->
@@ -22,9 +24,13 @@
     <script src="../bower_components/elasticsearch/elasticsearch.angular.js"></script>
     <!-- endbuild -->
     <!-- build:app scripts/app.js -->
-    <script src="./scripts/app.js"></script>
-    <script src="./scripts/search/searchService.js"></script>
-    <script src="./scripts/search/searchController.js"></script>
+    <script src="./modules/demo/demo.module.js"></script>
+    <script src="./modules/demo/demo.config.js"></script>
+    <script src="./modules/demo/demo.run.js"></script>
+    <script src="./modules/demo/demo.service.js"></script>
+    <script src="./modules/demo/demo.controller.js"></script>
+    <script src="./modules/demo/demo.directive.js"></script>
     <!-- endbuild -->
 </body>
+
 </html>

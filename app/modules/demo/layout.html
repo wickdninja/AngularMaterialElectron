@@ -1,0 +1,22 @@
+<div style="width:100%" layout="row">
+    <md-sidenav class="site-sidenav md-sidenav-left md-whiteframe-z2" md-component-id="left">
+        <demo-widget></demo-widget>
+    </md-sidenav>
+    <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+        <demo-widget></demo-widget>
+    </md-sidenav>
+    <div flex layout="column" tabIndex="-1" role="main" class="md-whiteframe-z2">
+        <md-toolbar layout="row" layout-align="space-between center" class="md-whiteframe-z1">
+            <md-button class="menu" ng-click="_demo.toggleSideNav('left')" aria-label="Show Left SideNav">
+                <md-icon style="color:white;" md-svg-icon="menu"></md-icon>
+            </md-button>
+            <h1 class="md-headline">Allied Event Log Search</h1>
+            <md-button class="settings" ng-click="_demo.toggleSideNav('right')" aria-label="Show Right SideNav">
+                <md-icon style="color:white;" md-svg-icon="settings"></md-icon>
+            </md-button>
+        </md-toolbar>
+        <div style="min-height: 91.5vh">
+            <demo-widget></demo-widget>
+        </div>
+    </div>
+</div>
