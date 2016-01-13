@@ -29,8 +29,8 @@
         $logProvider.debugEnabled(true)
         $routeProvider.when('/', {
             templateUrl: _templateBase + '/demo/layout.html',
-            controller: 'SearchController',
-            controllerAs: '_search'
+            controller: 'DemoController',
+            controllerAs: '_demo'
         });
         $routeProvider.otherwise({
             redirectTo: '/'
