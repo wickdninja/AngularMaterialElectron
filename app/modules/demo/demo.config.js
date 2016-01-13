@@ -28,7 +28,7 @@
         //disable in production
         $logProvider.debugEnabled(true)
         $routeProvider.when('/', {
-            templateUrl: _templateBase + '/search/layout.html',
+            templateUrl: _templateBase + '/demo/layout.html',
             controller: 'SearchController',
             controllerAs: '_search'
         });
